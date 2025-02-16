@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*
+{
+    margin: 0;
+}
+body
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "DM Sans", serif;
+}
+header
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.textbolo
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+}
+.t1
+{
+    color: black;
+    font-size: 20px;
+}
+.tb1
+{
+    border-bottom: 3px blue solid;
+}
+.b1
+{
+    background-color: #FF7143;
+    border:  none;
+    color: white;
+    font-size: 17px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.b1:active
+{
+    background-color: white;
+    color: #FF7143;
+    transition: 0.1s;
+}
+.p1
+{
+    width: 460px;
+    font-size: 80px;
+    margin-top: 150px;
+}
+.p2
+{
+    color: #696871;
+    font-size: 20px;
+    width: 455px;
+    margin-top: 30px;
+}
+.b2
+{
+    background-color: #5454D4;
+    border:  none;
+    color: white;
+    font-size: 17px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 30px;
+}
+.b2:active
+{
+    background-color: white;
+    color: #5454D4;
+    transition: 0.1s;
+}
+.down
+{
+    position: relative;
+    top: 25px;
+    left: 50px;
+    cursor: pointer;
+}
+.mid1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.img1
+{
+    margin-top: 100px;
+}
+.images
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.mid2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img2
+{
+    margin-top: 100px;
+}
+.p3
+{
+    width: 555px;
+    font-size: 65px;
+    margin-top: 150px;
+}
+.p4
+{
+    color: #696871;
+    font-size: 25px;
+    width: 500px;
+    margin-top: 30px;
+}
+.b3
+{
+    background-color: transparent;
+    border:  1px groove lightgray;
+    color: #5454D4;
+    font-size: 17px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 30px;
+}
+.b3:hover
+{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+.tx1
+{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.tx2
+{
+    color: #696871;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 30px;
+}
+.imag
+{
+    width: 30%;
+    height: 30vh;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.imag img
+{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.oo
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.to
+{
+    font-size: 70px;
+    width: 600px;
+}
+.y
+{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #5454D4;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: white;
+}
+.y:active
+{
+    background-color: white;
+    color: #5454D4;
+}
+.m
+{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    background-color: #d7d0d0;
+}
+.m:active
+{
+    background-color: white;
+    color: black;
+}
+.oxir
+{
+    display: flex;
+    justify-content: space-between;
+}
+.buts
+{
+    margin-top: 60px;
+}
+.pricecontainer
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card
+{
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: 0.1s;
+    cursor: pointer;
+    height: 35vh;
+    padding-top: 55px;
+}
+.card:hover
+{
+    transform: scale(1.10);
+}
+.card h2
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card .price
+{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.card .price span
+{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.card ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.card ul li
+{
+    margin: 10px 0;
+    color: #555;
+}
+
+.card .button
+{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background: rgb(108, 99, 255);
+    transition: 0.3s;
+}
+
+.card .button:hover
+{
+    background: #5750d1;
+}
+.premium
+{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 112, 67);
+    color: white;
+}
+.premium ul li
+{
+    color: white;
+}
+.premium .button
+{
+    background: rgb(94, 32, 3);
+}
+.premium .button:hover
+{
+    background: rgb(76, 25, 1);
+}
